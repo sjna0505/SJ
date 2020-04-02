@@ -1,0 +1,26 @@
+
+
+GIT
+
+	a) README.md is unmodified
+	b) README.md is modified, fun_problem.txt is untracked
+	c) README.md and fun_problem.txt are staged
+	d) README.md and fun_problem.txt are modified
+	e) README.md is staged, fun_problem.txt is unmodified and its content is empty. This is because the checkout removes all untracked changes
+	f) README.md is modified. Its content changes
+
+
+ADT
+
+	1) Map of playlistTrack (key - string) and song name (value - string). This works great for quick retrieval O(log n).
+
+	2) List works great for storing steps to a recipe. As it's linearly ordered and easy for instant access, my guess is vector is the best since it can also give the user more flexibility in determining how long and when the list will be shaped.
+
+	3) A Map of file-extensions(string - key) and programs (string - value). Again, map allows us to have have quick search so it will be easier to read/open the file;
+
+	4) Set of TV ID (string). Set allows for quick insertion while it maintains the order of the set, allowing fast retrieval.
+
+
+Runtime Analysis
+
+in hw2.pdf
