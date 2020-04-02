@@ -1,0 +1,59 @@
+Part a)
+	1, 4, 8
+
+Part b)
+	2, 3, 4, 5
+
+Part c)
+	4
+
+Part d)
+	4
+
+Part a)
+	3
+
+Part b)
+	git add hw1q2b.cpp
+	git log
+
+Part c)
+	
+	will ask for a commit message
+	Commit files that are staged for commit
+
+Rational Numbers
+
+	1. No
+	2. Yes
+	3. No
+
+Reversi
+
+	1. It's because none of the data members are private so implementing friend to the function would be pointless
+	2. Board class. It needed a copy constructor for creating checkpoints. It needed a destructor to delete all the memory that was allocated on the heap for creating the arrays at run-time. It also needed an assignment operator for = in undo() so that it could copy the last checkpoint board to the current board.
+
+
+Constructors and Destructors
+
+Part a)
+	Rational
+	Rational
+	Record
+	Rational
+	~Rational
+	Rational
+	~Rational
+
+Part b)
+
+	copy constructor
+	copy constructor
+	Record
+
+Part C)
+	
+	Wrapper::Wrapper(const Rational& major, const Rational& overall):r(major, overall)
+{
+
+}
