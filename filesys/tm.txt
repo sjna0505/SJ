@@ -1,0 +1,54 @@
+- [35mBASIC CHECKING - MODE 1[0m -----
+true
+g
+g
+false
+f
+k
+true
+- [35mPRINT CHECKING - MODE 2[0m -----
+T-> c d(4) l <-B
+B-> l d(4) c <-T
+T-> b(6) e(19) d(4) m(10) g(0) f(7) <-B
+B-> f(7) g(0) m(10) d(4) e(19) b(6) <-T
+- [35mSWAP AND INSERT AFTER CHECKING - MODE 3[0m -----
+T-> c <-B
+B-> c <-T
+T-> e(19) d(4) <-B
+B-> d(4) e(19) <-T
+T-> e(19) g(0) m(10) d(4) <-B
+B-> d(4) m(10) g(0) e(19) <-T
+T-> m(10) e(19) g(0) d(4) <-B
+B-> d(4) g(0) e(19) m(10) <-T
+T-> m(10) g(0) d(4) e(19) <-B
+B-> e(19) d(4) g(0) m(10) <-T
+- [35mSORT CHECKING - MODE 4[0m -----
+T-> m(10) <-B
+B-> m(10) <-T
+T-> b(6) d(4) e(19) f(7) g(0) m(10) <-B
+B-> m(10) g(0) f(7) e(19) d(4) b(6) <-T
+T-> m(10) <-B
+B-> m(10) <-T
+T-> g(0) d(4) b(6) f(7) m(10) e(19) <-B
+B-> e(19) m(10) f(7) b(6) d(4) g(0) <-T
+T-> m(10) <-B
+B-> m(10) <-T
+T-> b(6) d(4) e(19) f(7) g(0) m(10) <-B
+B-> m(10) g(0) f(7) e(19) d(4) b(6) <-T
+- [35mDELETE CHECKING - MODE 5[0m -----
+false
+true
+false
+true
+T-> f(7) <-B
+B-> f(7) <-T
+true
+T-> d(4) <-B
+B-> d(4) <-T
+T-> e(19) m(10) <-B
+B-> m(10) e(19) <-T
+true
+- [35mSEARCH CHECKING - MODE 6[0m -----
+true
+true
+false

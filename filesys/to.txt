@@ -1,0 +1,21 @@
+- TEST BASIC 1 -----
+true
+Bonny Charlie Federico(0) Holl(0) Marie Paola(0) Shaunta Terrian(0) 
+Terrian(0) Shaunta Paola(0) Marie Holl(0) Federico(0) Charlie Bonny 
+Jarrod Reinaldo(0) 
+false
+root/Marie/Shuan/Jarrod/
+Reinaldo(0) Jarrod 
+root/Marie/Shuan/
+root/
+Bonny Charlie Federico(0) Holl(0) Marie Paola(0) Shaunta Terrian(0) 
+- TEST BASIC 2 -----
+root/
+root/
+d(0) o 
+o(0) 
+root/o/o/o/o/o/
+o(0) c(0) a 
+b c(0) o 
+Error: cannot find file or directory 'orange'
+c(0) 
