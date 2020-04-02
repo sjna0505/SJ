@@ -1,0 +1,3 @@
+There is a linked list recursion directory that tackles with creating two lists from a pivot and a given list and filtering a list given a comparison object. 
+There is a merge sort that has an implementation of merge sort using recursion.
+In web search, I was able to add page rank by first making a candidate set then calculating page rank for each web object in the candidate by following a given equation. Then, I was able to add PRAND and PROR handlers to get the page rank of each candidate set and to sort them by alphabetically or by rank.
